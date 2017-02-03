@@ -158,7 +158,7 @@ TestPath::up()
 int 
 TestPath::getTestCount() const
 {
-  return m_tests.size();
+  return (int)m_tests.size();
 }
 
 
@@ -231,11 +231,11 @@ TestPath::splitPathString( const std::string &pathAsString,
 
   bool isRelative = pathAsString[0] != '/';
 
-  int index = (isRelative ? 0 : 1);
+  size_t index = (isRelative ? 0 : 1);
   while ( true )
   {
-    int separatorIndex = pathAsString.find( '/', index );
-    if ( separatorIndex >= 0 )
+    size_t separatorIndex = pathAsString.find( '/', index );
+    if ( separatorIndex >= 0 && separatorIndex != std::string::npos)
     {
       testNames.push_back( pathAsString.substr( index, separatorIndex - index ) );
       index = separatorIndex + 1;

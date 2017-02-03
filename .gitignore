@@ -1,0 +1,51 @@
+# Editors backup files
+*~
+
+# Microsoft Visual Studio compilation files and libraries
+*.obj
+*.lib
+*.dll
+*.exe
+*.ncb
+*.suo
+*.sdf
+*.opensdf
+*.vcproj.*.user
+*.vcxproj.user
+*.dll.embed.manifest.dll
+*.dll.embed.manifest.ilk
+.vs
+x64
+*.VC.db
+*.VC.dbopen
+*.VC.opendb
+
+# Subdirectories containing binaries for various tools
+[Oo]bj/
+[Oo]bjs/
+[Bb]in/
+[Bb]in-*/
+[Dd]ebug/
+[Dd]ebug-*/
+[Rr]elease/
+[Rr]elease-*/
+ipch/
+
+# Various types of usual temporary files
+*.tmp
+*.out
+*.log
+*.cache
+
+# Compressed archives are generally not source files
+*.tar
+*.zip
+*.gzip
+*.gz
+*.bzip2
+*.bz2
+*.rar
+*.7z
+
+# CppUnit test results
+VC*/*.xml

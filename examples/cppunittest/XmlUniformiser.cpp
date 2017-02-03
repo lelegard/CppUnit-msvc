@@ -229,7 +229,7 @@ XmlUniformiser::copyElementContent()
 void 
 XmlUniformiser::removeTrailingSpaces()
 {
-  int index = m_stripped.length();
+  int index = (int)m_stripped.length();
   while ( index-1 > 0  &&  isSpace( m_stripped[index-1] ) )
     --index;
   m_stripped.resize( index );

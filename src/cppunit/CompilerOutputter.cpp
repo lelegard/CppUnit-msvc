@@ -139,13 +139,13 @@ CompilerOutputter::processLocationFormatCommand( char command,
 std::string 
 CompilerOutputter::extractBaseName( const std::string &fileName ) const
 {
-  int indexLastDirectorySeparator = fileName.find_last_of( '/' );
+  size_t indexLastDirectorySeparator = fileName.find_last_of( '/' );
   
-  if ( indexLastDirectorySeparator < 0 )
-    indexLastDirectorySeparator = fileName.find_last_of( '\\' );
+  if (indexLastDirectorySeparator < 0 || indexLastDirectorySeparator == std::string::npos)
+      indexLastDirectorySeparator = fileName.find_last_of( '\\' );
   
-  if ( indexLastDirectorySeparator < 0 )
-    return fileName;
+  if (indexLastDirectorySeparator < 0 || indexLastDirectorySeparator == std::string::npos)
+      return fileName;
 
   return fileName.substr( indexLastDirectorySeparator +1 );
 }

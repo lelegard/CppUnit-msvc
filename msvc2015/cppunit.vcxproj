@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5F6F2D8F-5CEC-40CE-ACC4-AFB7DC56D45B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cppunit</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)\$(SolutionName).props" />
+  </ImportGroup>
+  
+  <ItemGroup>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\AdditionalMessage.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Asserter.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\BeOsDynamicLibraryManager.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\BriefTestProgressListener.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\CompilerOutputter.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DefaultProtector.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DllMain.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DynamicLibraryManager.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DynamicLibraryManagerException.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Exception.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Message.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\PlugInManager.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\PlugInParameters.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Protector.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\ProtectorChain.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\RepeatedTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\ShlDynamicLibraryManager.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\SourceLine.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\StringTools.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\SynchronizedObject.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Test.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestAssert.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestCase.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestCaseDecorator.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestComposite.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestDecorator.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestFactoryRegistry.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestFailure.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestLeaf.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestNamer.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestPath.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestPlugInDefaultImpl.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestResult.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestResultCollector.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestRunner.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSetUp.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSuccessListener.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSuite.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSuiteBuilderContext.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextOutputter.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextTestProgressListener.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextTestResult.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextTestRunner.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TypeInfoHelper.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\UnixDynamicLibraryManager.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Win32DynamicLibraryManager.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlDocument.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlElement.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlOutputter.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlOutputterHook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\AdditionalMessage.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Asserter.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\BriefTestProgressListener.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\CompilerOutputter.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-bcb5.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-evc4.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-mac.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-msvc6.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\CppUnitApi.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\SelectDllLoader.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\SourcePrefix.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Exception.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\AutoRegisterSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\ExceptionTestCaseDecorator.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\HelperMacros.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\Orthodox.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\RepeatedTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestCaseDecorator.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestDecorator.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestFactory.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestFactoryRegistry.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestFixtureFactory.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestNamer.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestSetUp.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestSuiteBuilderContext.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestSuiteFactory.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TypeInfoHelper.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Message.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Outputter.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\DynamicLibraryManager.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\DynamicLibraryManagerException.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\PlugInManager.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\PlugInParameters.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\TestPlugIn.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\TestPlugInDefaultImpl.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Portability.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitDeque.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitMap.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitSet.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitStack.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitVector.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\FloatingPoint.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\Stream.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Protector.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\SourceLine.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\SynchronizedObject.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Test.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestAssert.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestCaller.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestCase.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestComposite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestFailure.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestFixture.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestLeaf.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestListener.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestPath.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestResult.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestResultCollector.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestRunner.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestSuccessListener.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextOutputter.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextTestProgressListener.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextTestResult.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextTestRunner.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\Algorithm.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\StringTools.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\XmlDocument.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\XmlElement.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\ui\text\TestRunner.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\ui\text\TextTestRunner.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\XmlOutputter.h" />
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\XmlOutputterHook.h" />
+    <ClInclude Include="$(RepositoryRootDir)\src\cppunit\DefaultProtector.h" />
+    <ClInclude Include="$(RepositoryRootDir)\src\cppunit\ProtectorChain.h" />
+    <ClInclude Include="$(RepositoryRootDir)\src\cppunit\ProtectorContext.h" />
+  </ItemGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+
+</Project>

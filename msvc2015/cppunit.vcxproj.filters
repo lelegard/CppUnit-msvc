@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\AdditionalMessage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Asserter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\BeOsDynamicLibraryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\BriefTestProgressListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\CompilerOutputter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DefaultProtector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DynamicLibraryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\DynamicLibraryManagerException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\PlugInManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\PlugInParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Protector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\ProtectorChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\RepeatedTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\ShlDynamicLibraryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\SourceLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\StringTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\SynchronizedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestCaseDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestComposite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestDecorator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestFactoryRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestFailure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestLeaf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestNamer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestPlugInDefaultImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestResultCollector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSetUp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSuccessListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSuite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TestSuiteBuilderContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextOutputter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextTestProgressListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextTestResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TextTestRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\TypeInfoHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\UnixDynamicLibraryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\Win32DynamicLibraryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlDocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlOutputter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(RepositoryRootDir)\src\cppunit\XmlOutputterHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(RepositoryRootDir)\src\cppunit\DefaultProtector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\src\cppunit\ProtectorChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\src\cppunit\ProtectorContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\XmlOutputterHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\XmlOutputter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextTestRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextTestResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextTestProgressListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TextOutputter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestSuite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestSuccessListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestResultCollector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestLeaf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestFixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestFailure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestComposite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestCaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\TestAssert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\SynchronizedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\SourceLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Protector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Portability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Outputter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\CompilerOutputter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\BriefTestProgressListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\Asserter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\AdditionalMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-bcb5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-evc4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\config-msvc6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\CppUnitApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\SelectDllLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\config\SourcePrefix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\AutoRegisterSuite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\ExceptionTestCaseDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\HelperMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\Orthodox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\RepeatedTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestCaseDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestDecorator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestFactoryRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestFixtureFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestNamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestSetUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestSuiteBuilderContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TestSuiteFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\extensions\TypeInfoHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\DynamicLibraryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\DynamicLibraryManagerException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\PlugInManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\PlugInParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\TestPlugIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\plugin\TestPlugInDefaultImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitDeque.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\CppUnitVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\FloatingPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\portability\Stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\Algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\StringTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\XmlDocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\tools\XmlElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\ui\text\TestRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(RepositoryRootDir)\include\cppunit\ui\text\TextTestRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

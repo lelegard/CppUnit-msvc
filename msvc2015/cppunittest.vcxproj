@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C646E64-7978-4CA9-A12D-66089284C36D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cppunittest</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(SolutionDir)\$(SolutionName).props" />
+  </ImportGroup>
+
+  <ItemGroup>
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\assertion_traitsTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\BaseTestCase.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\CoreSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\ExceptionTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\ExceptionTestCaseDecoratorTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\ExtensionSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\FailureException.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\HelperMacrosTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\HelperSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\MessageTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\MockFunctor.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\MockProtector.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\MockTestCase.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\MockTestListener.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\OrthodoxTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\OutputSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\RepeatedTestTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\StringToolsTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\SubclassedTestCase.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\SynchronizedTestResult.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestAssertTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestCallerTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestCaseTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestDecoratorTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestFailureTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestPathTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestResultCollectorTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestResultTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestSetUpTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestSuiteTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TestTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\ToolsSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\TrackedTestCase.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\UnitTestToolSuite.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\XmlElementTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\XmlOutputterTest.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\XmlUniformiser.h" />
+    <ClInclude Include="$(RepositoryRootDir)\examples\cppunittest\XmlUniformiserTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\assertion_traitsTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\BaseTestCase.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\CppUnitTestMain.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\CppUnitTestPlugIn.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\CppUnitTestSuite.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\ExceptionTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\ExceptionTestCaseDecoratorTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\HelperMacrosTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\MessageTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\MockTestCase.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\MockTestListener.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\OrthodoxTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\RepeatedTestTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\StringToolsTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\SubclassedTestCase.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestAssertTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestCallerTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestCaseTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestDecoratorTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestFailureTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestPathTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestResultCollectorTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestResultTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestSetUpTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestSuiteTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TestTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\TrackedTestCase.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\XmlElementTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\XmlOutputterTest.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\XmlUniformiser.cpp" />
+    <ClCompile Include="$(RepositoryRootDir)\examples\cppunittest\XmlUniformiserTest.cpp" />
+  </ItemGroup>
+
+  <ItemDefinitionGroup>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cppunit.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+
+</Project>
